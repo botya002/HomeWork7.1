@@ -8,10 +8,10 @@ public class Main {
     Warrior warrior = new Warrior(50, 60);
 
     Hero[] Heroes = {magic,warrior,medic};
-        for (int i = 0; i < 1  ; i++) {
-            Heroes[0].applySuperAbility("Огненный шар");
-            Heroes[1].applySuperAbility("Крит урон");
-            Heroes[2].applySuperAbility("Лечить");
+        for (int i = 0; i < Heroes.length  ; i++) {
+            Heroes[i].applySuperAbility("Огненный шар");
+            Heroes[i].applySuperAbility("Крит урон");
+            Heroes[i].applySuperAbility("Лечить");
             break;
         }
     }
